@@ -1,7 +1,7 @@
 var consts = {
-    'SEVEN_DAYS': '7d',
-    'THIRTY_DAYS': '30d',
-    'TWELVE_MONTHS': '12m'
+    'SEVEN_DAYS': 'D',
+    'THIRTY_DAYS': 'D',
+    'TWELVE_MONTHS': 'M'
 };
 
 var generate = function generate(granularity) {
@@ -48,6 +48,16 @@ var generate = function generate(granularity) {
       },
       {
         "51000": {
+          "1420070400000": 503802,
+          "1420156800000": 439438,
+          "1420243200000": 186430,
+          "1420329600000": 226156,
+          "1420416000000": 61089,
+          "1420502400000": 15323
+        }
+      },
+      {
+        "33333": {
           "1420070400000": 503802,
           "1420156800000": 439438,
           "1420243200000": 186430,
